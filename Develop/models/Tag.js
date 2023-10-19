@@ -26,7 +26,4 @@ Tag.init(
   }
 );
 
-// Tag.belongsToMany(Product, { through: 'product_tag', foriegnKey: 'product_id' });
-// Product.belongsToMany(Student, { through: 'product_tag', foriegnKey: 'product_id' });
-
 module.exports = Tag;

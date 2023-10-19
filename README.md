@@ -1,5 +1,8 @@
 # E-commerce Back End Starter Code
 
+npm run start
+npm run watch
+
 
 AS A manager at an internet retail company
 I WANT a back end for my e-commerce website that uses the latest technologies
