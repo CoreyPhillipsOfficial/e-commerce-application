@@ -19,3 +19,5 @@ WHEN I open API GET routes in Insomnia Core for categories, products, or tags
 THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
+
+I'm working on an application that helps manage products. One category can have multiple products. One product can only have one category. A tag can have multiple products and a product can have multiple tags
