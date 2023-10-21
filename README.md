@@ -2,6 +2,7 @@
 
 ## This E-commerce application manages products in a database. Each product belongs to one category, and can have multiple tags. This allows the user to effectively create, manage, update, and delete products, tags, and categories in the system. E-Commerce Application is great for business owners, managers, and sales departments. The backend of the application was created using Sequelize, Node.js, and Express.js.
 
+[Link to walkthrough video](https://drive.google.com/drive/folders/1q6pl5vkAAXlntYmRVU6_86-zKumsteGU?usp=sharing)
 
 
 ![Screenshot](./Develop/assets/Screenshot%202023-10-21%20at%202.54.32%20PM.png)
