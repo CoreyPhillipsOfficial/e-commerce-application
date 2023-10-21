@@ -1,23 +1,41 @@
-# E-commerce Back End Starter Code
+# E-commerce Application
 
-npm run start
-npm run watch
+## This E-commerce application manages products in a database. Each product belongs to one category, and can have multiple tags. This allows the user to effectively create, manage, update, and delete products, tags, and categories in the system. E-Commerce Application is great for business owners, managers, and sales departments. The backend of the application was created using Sequelize, Node.js, and Express.js.
 
 
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
 
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database
+![Screenshot](./Develop/assets/Screenshot%202023-10-21%20at%202.54.32%20PM.png)
+![Screenshot](./Develop/assets/Screenshot%202023-10-21%20at%202.55.33%20PM.png)
 
-I'm working on an application that helps manage products. One category can have multiple products. One product can only have one category. A tag can have multiple products and a product can have multiple tags. Here is my code for category routes and tage routes. Can you direct me on how I would complete the product routes?
+## Installation
+
+To install and run this application, follow these steps:
+
+Clone the respository to your local machine using `git@github.com:CoreyPhillipsOfficial/e-commerce-application.git`<br>
+Navigate to the project directory: `cd e-commerce-backend`<br>
+Install the required packes using npm: `npm install`<br>
+Set up the MySQL database by executing the proper SQL script<br>
+Start the application: `npm run start`<br>
+Now you've successfully installed nd started the e-commerce application! You can now efficiently manage an entire database of products for your company.
+
+## Usage
+
+To use the application, follow these steps:
+
+Set up the database by running the following command in your MySQL shell: `source db/schema.sql`<br>
+Start the server by running the following command in your terminal: `npm run start`<br>
+Use the provided API routes to interact with the application. Some example routes include:<br>
+GET /api/categories: Get all cateogries in the database<br>
+POST /api/tags: Update a tag in the database<br>
+DELETE /api/products: Delete a product from the database<br>
+
+Please note that this is a backend application, so you will need to use a tool like Insomnia or Postman to make requests to the API endpoints.
+
+
+## Credits
+
+I receieved guidance on this application from my instructor, JD Tadlock in class. I also referred to ChatGPT to help me figure out where my syntax was incorrect. Rene Trevino also helped me understand the conepts used in this application during a tutoring session.
+
+## License
+
+Please refer to the LICENSE in the repo.
